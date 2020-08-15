@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- <link rel="stylesheet" href="./styles.css"> -->
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&display=swap');
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+
+    }
+
+    html {
+      background-color: lightgray;
+    }
+
+    body {
+      font-family: 'Catamaran', sans-serif;
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2%;
+      color: #565859;
+    }
+    #wrapper {
+      background: #f6faff;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    header {
+      width: 98%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    #logo {
+      width: 9rem;
+      height: 80px;
+      display: flex;
+      margin-left: 10%;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+
+
+    }
+
+    #logo img {
+      width: 2.8rem;
+    }
+
+    #logo h1 {
+      font-size: 1.6rem;
+    }
+
+    .nav-contain {
+      width: 400px;
+    }
+
+    .navbar {
+      max-width: 500px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    li {
+      list-style: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .navbar button {
+      cursor: pointer;
+      width: 110px;
+      height: 45px;
+      background-color: orange;
+      border-radius: 30px;
+      color: white;
+      padding: 1px;
+    }
+
+    .navbar button:hover {
+      color: orangered;
+      
+    }
+
+    .main-content {
+      margin-top: 45px;
+      display: flex;
+      height: 100%;
+      justify-content: space-around;
+      align-content: center;
+    }
+
+    .main-content img {
+      align-self: center;
+      height: 5.5rem;
+    }
+
+
+    .hello-line {
+      width: 50px;
+      border-bottom: solid orange 1px;
+
+    }
+
+
+    .written-content {
+      width: 45%;
+      height: 100%;
+      font-size: 1.5rem;
+    }
+
+    .written-content p {
+      margin-top: 25px;
+      font-size: 1rem;
+    }
+
+    .features {
+      margin-top: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: rgb(240, 236, 236);
+    }
+
+
+
+    .line {
+      width: 100px;
+      border-bottom: solid orange 1px;
+
+    }
+
+    .features h2 {
+      margin-top: 25px;
+    }
+
+    .features p {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 1rem;
+      width: 75%;
+    }
+
+    footer {
+      height: 300px;
+      background-color:#282828;;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .footer-content {
+      width: 80%;
+      text-align: center;
+    }
+
+    .footer-text {
+      margin-top: 15px;
+      font-size: .8rem;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="logo">
+        <img src="./Blue and Yellow Cat Animal & Pets Logo.png" />
+        <h1>Azap</h1>
+      </div>
+      <div class="nav-contain">
+        <ul class="navbar">
+          <li>
+            Home
+          </li>
+          <li>
+            Work
+          </li>
+          <li>
+            Contact
+          </li>
+          <button>
+            GET STARTED
+          </button>
+        </ul>
+      </div>
+    </header>
+      <div class="canva-image">
+        <img src="./pexels-sergio-souza-3198005.jpg" />
+      </div>
+      <div class="main-content">
+        <img src="./pexels-anel-rossouw-2558605.png" alt="game-controller" />
+        <div class="written-content">
+          <h3>Hello !</h3>
+          <div class="hello-line"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+        </div>
+      </div>
+      <div class="features">
+        <h2>FEATURED WORKS</h2>
+        <div class="line"></div>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      </div>
+      <footer>
+        <div class="footer-content">
+          <p>123 Somewhere Ave.</p>
+            <p>Conyers, GA 12345, USA</p>
+          <p class="footer-text">You're recieving this email bacause you've signed up to recieve updates on order types you previously purchased. If you'd prefer not to recieve updates, you can unsubscribe anytime.</p>
+        </div>
+      </footer>
+  </div>
+  
+</body>
+</html>
